@@ -28,5 +28,6 @@ function cycleCreators() {
 
 genButton.addEventListener('click', generateRandomVideoForCurrentCreator);
 cycleButton.addEventListener('click', cycleCreators);
+generateRandomVideoForCurrentCreator();
 
     
