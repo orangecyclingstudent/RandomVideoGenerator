@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Video Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Video Generator</h1>
+        <button id="generateButton">Generate Random Video</button>
+        <div id="videoContainer">
+            <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+        </div>
+        <input type="text" id="creatorInput" placeholder="Enter creator name...">
+            <div id="moodDropdown">
+    <label for="moods">Choose a mood:</label>
+    <select id="mood" name="moodSelection" defaultValue="Funny">
+        <option value="Funny">Funny</option>
+        <option value="Serious">Serious</option>
+        <option value="Sad">Sad</option>
+        <option value="Random" selected>Random</option>
+        <option value="Angry">Angry</option>
+    </select>
+    </div>
+    </div>
+</body>
